@@ -1,0 +1,15 @@
+QUESTION NO 4:
+
+#include <stdio.h>
+main()
+{
+	float fuel_average, cost1, cost2, total_cost, total_fuel,cosumption;
+	printf("Enter fuel avergae of your car:\t");
+	scanf("%f", &fuel_average);
+	total_fuel_consumption= (1207+1207)/fuel_average;
+	printf("The total fuel cosumption is %.03f\n", total_fuel_consumption);
+	cost1=(total_fuel_consumption/2)*118;
+	cost2=(total_fuel_consumption/2)*123;
+	total_cost=cost1+cost2;
+	printf("The total fuel cost (bot ways) is:\t%.3f", total_cost);
+}
