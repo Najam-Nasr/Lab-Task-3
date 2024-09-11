@@ -1,0 +1,16 @@
+QUESTION NO 2:
+
+#include<stdio.h>
+main()
+{
+	int a, b, c;
+	printf("Enter n1:");
+	scanf("%d", &a);
+	printf("Enter n2:");
+	scanf("%d", &b);
+	c=a;
+	a=b;
+	b=c;
+	prinf("n1 is: %d", a);
+	prinff("n2 is: %d" ,b);
+}
