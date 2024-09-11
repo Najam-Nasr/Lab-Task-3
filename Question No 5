@@ -1,0 +1,26 @@
+QUESTION NO 5:
+
+#include<stdio.h>
+main()
+{
+	float, principle, interest;
+	int rate, time;
+	printf("NOTE:\n");
+	printf("The value of principle must be between 100 to 1,000,000 \n");
+	printf("The rate of interest must be between 5% to 10% \n");
+	printf(The time must be between 1 to 10 years \n");
+	printf("Enter Principle: ");
+	scanf("%f", &principle);
+	if(principle<100 || principle>1000000);
+	printf("The Principle is out of range");
+	printf("Enter rate of interest (not in decimal): ");
+	scanf("%d", &rate);
+	if(rate<5 || rate>10);
+	printf("Interest Rate is out of range);
+	printf("Enter time: ");
+	scanf("%d", &time);
+	if(time<1 || time>10);
+	printf("Time is out of range");
+	Interest=(principle*time*rate)/100;
+	printf("The interest is: %3f", interest);
+}
