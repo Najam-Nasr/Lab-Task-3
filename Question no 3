@@ -1,0 +1,15 @@
+QUESTION NO 3:
+
+#include <stdio.h>
+main()
+{	
+	int rate;
+	float salary, tax;
+	printf("Enter Tax Rate: ");
+	scanf("%d", &rate);
+	printf("Enter Salary: ");
+	scanf("%f", &salary);
+	tax=salary*(rate/100.0);
+	printf("The Tax Applied is %.3f\n", tax);
+	printf("The salary left after deducting tax is: %.1f", salary-tax);
+}
